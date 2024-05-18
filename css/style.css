@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+.text-center {
+  font-family: "Poetsen One", "Poppins";
+
+  border-radius: ;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  background-color: white;
+}
+.nav-item:hover,
+.navbar-brand:hover {
+  background-color: #ffc107; /* Bootstrap warning color */
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+  border-radius: 10px;
+}
+.navbar-toggler.collapsed .bar1 {
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+.navbar-toggler.collapsed .bar2 {
+  opacity: 0;
+}
+.navbar-toggler.collapsed .bar3 {
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.gradient {
+  background: linear-gradient(
+    45deg,
+    #ff6b6b,
+    #f06595,
+    #cc5de8,
+    #845ef7,
+    #5c7cfa,
+    #339af0,
+    #22b8cf,
+    #20c997,
+    #51cf66,
+    #94d82d,
+    #fcc419,
+    #ff922b
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
