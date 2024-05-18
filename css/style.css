@@ -16,7 +16,7 @@ nav {
 }
 .nav-item:hover,
 .navbar-brand:hover {
-  background-color: #ffc107; /* Bootstrap warning color */
+  background-color: #a4bca2fe; /* Bootstrap warning color */
 }
 
 .bar1,
