@@ -4,7 +4,9 @@
 * {
   font-family: "Poppins", sans-serif;
 }
-
+.social-media-icon:hover {
+  background-color: #cacaca;
+}
 a {
   text-decoration: none;
 }
@@ -13,7 +15,7 @@ nav {
 }
 .nav-item:hover,
 .navbar-brand:hover {
-  background-color: #a4bca2fe; /* Bootstrap warning color */
+  background-color: #cacaca; /* Bootstrap warning color */
 }
 #navbarNav {
   transition: 0.5s;
@@ -44,19 +46,15 @@ nav {
 
 .gradient {
   background: linear-gradient(
-    45deg,
-    #ff6b6b,
-    #f06595,
-    #cc5de8,
-    #845ef7,
-    #5c7cfa,
+    10deg,
     #339af0,
-    #22b8cf,
+    #5c7cfa,
+    #845ef7,
+    #cc5de8,
+    #f06595,
+    #ff6b6b,
     #20c997,
-    #51cf66,
-    #94d82d,
-    #fcc419,
-    #ff922b
+    #22b8cf
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
